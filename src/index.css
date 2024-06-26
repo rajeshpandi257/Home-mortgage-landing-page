@@ -1,0 +1,15 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Teko", sans-serif;
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #fc2fda 0.89%,
+    #0f020f 17.23%,
+    #161116 17.23%
+  );
+}

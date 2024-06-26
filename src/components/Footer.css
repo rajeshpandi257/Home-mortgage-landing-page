@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap");
+
+.footer {
+  background-color: var(--primary-color-dark);
+  height: 300px;
+  position: relative;
+  font-family: "Noto Serif", serif;
+}
+
+.footer__container {
+  display: grid;
+  gap: 4rem 2rem;
+}
+.p {
+  color: red;
+}
+
+.footer__bar {
+  position: absolute;
+
+  top: 20%;
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--white);
+  text-align: center;
+  line-height: 2rem;
+}
